@@ -35,7 +35,7 @@
     
     <section id="about">
         <h2><i class="fas fa-user"></i> Обо мне</h2>
-        <p>Я придерживаюсь принципов комплексного тестирования, где важны не только технические аспекты, но и бизнес-логика продукта. В своей работе я использую как классические методики тестирования, так и современные подходы, включая элементы автоматизации.</p>
+        <p>Я придерживаюсь принципов комплексного тестирования, где важны не только технические аспекты, но и бизнес-логика продукта. В своей работе использую, как классические методики тестирования, так и современные подходы, включая элементы автоматизации.</p>
         
         <div class="image-gallery">
     <div class="gallery-item">
@@ -179,7 +179,7 @@
                 
                 if (targetSection) {
                     window.scrollTo({
-                        top: targetSection.offsetTop - 20,
+                        top: targetSection.offsetTop - 40,
                         behavior: 'smooth'
                     });
                 }
@@ -194,7 +194,7 @@
                 const position = element.getBoundingClientRect();
                 
                 // Если элемент виден в viewport
-                if(position.top < window.innerHeight - 50) {
+                if(position.top < window.innerHeight - 30) {
                     element.style.opacity = 1;
                     element.style.transform = 'translateY(0)';
                 }
@@ -215,6 +215,7 @@
 </body>
 
 </html>
+
 
 
 
